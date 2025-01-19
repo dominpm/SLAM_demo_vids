@@ -1,0 +1,14 @@
+# RViz Configuration
+Fixed Frame: "map"
+
+Displays:
+- Name: "Map"
+  Topic: "/map"
+  Type: "OccupancyGrid"
+- Name: "LaserScan"
+  Topic: "/scan"
+  Type: "LaserScan"
+- Name: "RobotModel"
+  Type: "RobotModel"
+- Name: "TF"
+  Type: "TF"
